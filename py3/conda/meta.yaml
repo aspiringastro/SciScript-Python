@@ -1,0 +1,12 @@
+package: 
+  name: "sciserver"
+  version: "2.1.0"
+about:
+  summary: "This is an unofficial sciserver package published for ease of notebook install of sciserver packages outside of the Betelguese environment"
+
+source:
+  path: ..
+
+build:
+  script: python setup.py install
+  
